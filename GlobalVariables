@@ -1,0 +1,15 @@
+public class GlobalVariables {
+	int a=10,b=20;
+	public void show() {
+		System.out.println("a="+a);
+	}
+	public void display() {
+		System.out.println("b="+b);
+	}
+	public static void main(String args[]) {
+		GlobalVariables obj=new GlobalVariables();
+		obj.show();
+		obj.display();
+	}
+
+}
