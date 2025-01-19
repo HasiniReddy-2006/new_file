@@ -1,0 +1,16 @@
+
+public class FinalVariable {
+	final int a=10;
+	public void show() {
+		System.out.println("a="+a);
+	}
+	public void display() {
+		System.out.println("a="+a);
+	}
+	public static void main(String args[]) {
+		FinalVariable obj=new FinalVariable();
+		obj.show();
+		obj.display();
+	}
+
+}
